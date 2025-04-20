@@ -1,7 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-09 at 17:45 (GMT+3)-->
-<!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
+<!--Last edited by Ukelele version 417 on 2025-04-20 at 07:23 (GMT+3)-->
 <keyboard group="126" id="-12087" name="English - Universal" maxout="3">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -67,18 +66,20 @@
 			<key code="15" action="r"/>
 			<key code="16" action="19"/>
 			<key code="17" action="t"/>
-			<key code="18" output="!"/>
-			<key code="19" output="@"/>
-			<key code="20" output="#"/>
-			<key code="21" output=";"/>
-			<key code="22" output=":"/>
-			<key code="23" output="%"/>
+			<!-- tonsky! -->
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
+			<key code="22" output="6"/>
+			<key code="23" output="5"/>
 			<key code="24" output="="/>
-			<key code="25" output="("/>
-			<key code="26" output="?"/>
+			<key code="25" output="9"/>
+			<key code="26" output="7"/>
 			<key code="27" output="-"/>
-			<key code="28" output="*"/>
-			<key code="29" output=")"/>
+			<key code="28" output="8"/>
+			<key code="29" output="0"/>
+			<!-- /tonsky! -->
 			<key code="30" output="]"/>
 			<key code="31" action="17"/>
 			<key code="32" action="18"/>
@@ -179,18 +180,20 @@
 			<key code="15" action="R"/>
 			<key code="16" action="12"/>
 			<key code="17" action="T"/>
-			<key code="18" output="1"/>
-			<key code="19" output="2"/>
-			<key code="20" output="3"/>
-			<key code="21" output="4"/>
-			<key code="22" output="6"/>
-			<key code="23" output="5"/>
+			<!-- tonsky1 -->
+			<key code="18" output="!"/>
+			<key code="19" output="@"/>
+			<key code="20" output="#"/>
+			<key code="21" output=";"/>
+			<key code="22" output=":"/>
+			<key code="23" output="%"/>
 			<key code="24" output="+"/>
-			<key code="25" output="9"/>
-			<key code="26" output="7"/>
+			<key code="25" output="("/>
+			<key code="26" output="?"/>
 			<key code="27" output="_"/>
-			<key code="28" output="8"/>
-			<key code="29" output="0"/>
+			<key code="28" output="*"/>
+			<key code="29" output=")"/>
+			<!-- /tonsky1 -->
 			<key code="30" output="}"/>
 			<key code="31" action="10"/>
 			<key code="32" action="11"/>
